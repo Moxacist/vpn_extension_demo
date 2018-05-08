@@ -8,5 +8,5 @@
 
 3.build 不出意外 就已经好了
 
-vpn相关使用知识： 简书：https://www.jianshu.com/p/dfd3960af5ac
+vpn_demo相关： 简书：https://www.jianshu.com/p/dfd3960af5ac
 
