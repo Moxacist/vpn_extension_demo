@@ -97,9 +97,9 @@
     
     NETunnelProviderManager *manager = [[NETunnelProviderManager alloc] init];
     NETunnelProviderProtocol *conf = [[NETunnelProviderProtocol alloc] init];
-    conf.serverAddress = @"A+";
+    conf.serverAddress = @"name";
     manager.protocolConfiguration = conf;
-    manager.localizedDescription = @"A+ VPN";
+    manager.localizedDescription = @"vpn name show";
     return manager;
 }
 
@@ -126,8 +126,8 @@
         
         //set rule config
         NSMutableDictionary *conf = @{}.mutableCopy;
-        conf[@"ss_address"] = @"173.248.242.245";
-        conf[@"ss_port"] = @8388;
+        conf[@"ss_address"] = @"170.218.212.145";
+        conf[@"ss_port"] = @8888;
         conf[@"ss_method"] = @"RC4MD5";// 大写 没有横杠 看Extension中的枚举类设定 否则引发fatal error
         conf[@"ss_password"] = @"ceshi";
         
